@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+}
+
+.main__container{
+    background-color: hsl(216, 50%, 16%);
+    margin: auto;
+    margin-top: 60px;
+    width: 325px;
+    height: 545px;
+    border-radius: 3.5%;
+}
+
+.overlap_image{
+    position: absolute;
+    background-repeat: no-repeat;
+    border-radius: 4%;
+    width: 275px;
+    height: 275px;
+    top: 23px;
+    margin-left: 23px;
+    background-color: hsl(178, 100%, 50%);
+    background-image: url(./images/icon-view.svg);
+    background-position: 113px 113px;
+}
+
+.etherium__image{
+    width: 275px;
+    border-radius: 3.5%;
+}
+
+.etherium__image:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.view__image{
+    position: absolute;
+    margin-top: 115px;
+    margin-left: 115px;
+    display: none;
+}
+
+.header{
+    color: hsl(0, 0%, 100%);
+    font-weight: 550;
+    font-size: 21.8px;
+    margin-top: 327px;
+    margin-left: 25px;
+    width: 180px;
+    position: absolute;
+}
+
+.header:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.text{
+    font-weight: 300;
+    width: 275px;
+    margin-left: 25px;
+    margin-top: 368px;
+    color: hsl(215, 51%, 70%);
+    line-height: 25px;
+    position: absolute;
+}
+
+.text__resume{
+    position: absolute;
+    border-bottom: 0.1px solid hsl(215, 51%, 25%);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 435px;
+    margin-left: 23px;
+    height: 35px;
+    width: 275px;
+}
+
+.left_eth{
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    width: 92px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.right__clock{
+    color: hsl(215, 51%, 70%);
+    width: 95px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.footer__creator{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 223px;
+    height: 60px;
+    margin-left: 25px;
+    margin-top: 475px;
+}
+
+.avatar__image{
+    width: 30px;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
+.text__footer{
+    padding: 0;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+span{
+    color: white;
+}
+
+span:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution{
+    display: none;
+}
+
+@media (min-width: 1440px){
+    .main__container{
+        margin-top: 150px;
+        width: 350px;
+        height: 595px;
+    }
+    .etherium__image{
+        width: 300px;
+    }
+    .overlap_image{
+        width: 300px;
+        height: 300px;
+    }
+    .header{
+        margin-top: 340px;
+    }
+    .text{
+        font-size: 17.5px;
+        margin-top: 390px;
+        width: 300px;
+    }
+    .text__resume{
+        height: 44px;
+        width: 300px;
+        margin-top: 466px;
+    }
+    .footer__creator{
+        margin-top: 515px;
+    }
+}
+
+
